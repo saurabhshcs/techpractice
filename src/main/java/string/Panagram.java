@@ -6,9 +6,14 @@ package string;
  * @author  saurabhshcs
  */
 
-public class panagram {
+/*
+* A pangram is a string that contains all the letters of the English alphabet.
+* * An example of a pangram is "The quick brown fox jumps over the lazy dog".
+* * */
+public class Panagram
+{
     public static void main(String[] args) {
-        String inputString = "Thw quick brown fox jumpps over the lazy dog";
+        String inputString = "The quick brown fox jumps over the lazy dog";
 
         System.out.println("Is the following input string is the panagram string?");
         System.out.println("The input string is: " + inputString);
